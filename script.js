@@ -1,4 +1,4 @@
-// Modern Engineering Portfolio 2026 - Local JS
+// Febrina Intan CV
 
 (function () {
   const root = document.documentElement;
