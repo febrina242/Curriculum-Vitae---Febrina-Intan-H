@@ -233,6 +233,14 @@ footer{border-top: 1px solid rgba(255,255,255,.08); background: rgba(0,0,0,.05);
 /* Focus visibility */
 :focus-visible{outline: 3px solid rgba(127,29,29,.85); outline-offset: 2px;}
 
+/* Prevent layout shift on mobile (HP) */
+img{max-width:100%; height:auto; display:block;}
+.container, .container-fluid{width:100%; padding-left:15px; padding-right:15px;}
+
+/* Improve tap/reading stability */
+main section{scroll-margin-top:90px;}
+
+
 /* Fix text visibility in hero subtitle/lead (maroon dark, no blue) */
 .cv-subtitle{color: rgba(127,29,29,1) !important;}
 
